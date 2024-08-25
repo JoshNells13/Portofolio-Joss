@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skill</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <div>
+        <a href="#" class="logo">Porto<span>folio</span></a>
+        <nav class="navbar">
+            <a href="/index.html" class="">HOME</a>
+            <a href="./skill.html">SKILL</a>
+            <a href="./about.html">ABOUT ME</a>
+            <a href="./contact.html">CONTACT</a>
+        </nav>
+    </div>
+
+    <header>
+        <h1>SKI<span>LL</span></h1>
+    </header>
+    
+    <section >
+        <div class="box">
+            
+            <h3>HTML</h3>
+        </div>
+
+        <div class="box2">
+
+            <h3>CSS</h3>
+        </div>
+
+        <div class="box3">
+            <h3>JAVASCRIPT</h3>
+        </div>
+    </section>
+
+   
+
+</body>
+
+
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+
+    a{
+    color: white;
+    text-decoration: none;
+}
+
+div span{
+    color: aqua;
+}
+
+    div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20% ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: default;
+}
+
+
+header span{
+    color: aqua;
+    
+}
+
+
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    right: 2cm;
+    animation: slidekanan 1s ease forwards;
+}
+
+.navbar a{
+    margin-right: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 1.5cm;
+    cursor: pointer;
+}
+
+.navbar a:hover{
+   
+   color: aqua;
+   transition: .3s ease-in-out;
+}
+
+
+    
+    header span{
+        color: aqua;
+    }
+
+    body{
+        background-color: rgb(29, 49, 55);;
+    }
+
+    h1{
+        
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        color: aliceblue;
+        padding: 120px;
+    }
+
+    section{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       padding: 3cm;
+       position: relative;
+        right: 30px;
+    }
+
+    .box{
+        
+        left: 9.5cm;
+        padding: 10px;
+        position:absolute;
+        justify-content: space-between;
+        align-items: center;
+        display:inline-block ;
+        border-radius: 10px;
+        border: 3px solid aqua;
+        height: 5cm;
+        width: 5cm;
+        animation: keatas 1s ease forwards ;
+       
+    }
+
+    .box:hover{
+        box-shadow: 0 0 10px aqua;
+        border: 5px solid aqua;
+        transition: 0.4s ease-in-out;
+    }
+
+    .box h3{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 2cm;
+        color: white;
+    }
+
+    .box2{
+        left: 17.5cm;
+        padding: 10px;
+        position:absolute;
+        justify-content: space-between;
+        align-items: center;
+        display:inline-block ;
+        border-radius: 10px;
+        border: 2px solid aqua;
+        height: 5cm;
+        width: 5cm;
+        animation: keatas 1s ease forwards ;
+    }
+
+    .box2:hover{
+        box-shadow: 0 0 10px aqua;
+        border: 5px solid aqua;
+        transition: 0.4s ease-in-out;
+    }
+
+    .box2 h3{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 2cm;
+        color: white;
+    }
+
+
+    .box3{
+        left: 25.5cm;
+        padding: 10px;
+        position:absolute;
+        justify-content: space-between;
+        align-items: center;
+        display:inline-block ;
+        border-radius: 10px;
+        border: 2px solid aqua;
+        height: 5cm;
+        width: 5cm;
+        animation: keatas 1s ease forwards ;
+    }
+
+    .box3:hover{
+        box-shadow: 0 0 10px aqua;
+        border: 5px solid aqua;
+        transition: 0.4s ease-in-out;
+    }
+
+    .box3 h3{
+        color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding: 2cm;
+        color: white;
+    }
+
+
+    @keyframes keatas{
+        0%{
+            transform: translateY(100px);
+            opacity: 0;
+        }
+
+        100%{
+            transform: translateY(0px);
+            opacity: 1;
+        }
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 4cm;   
+    }
+
+    
+
+
+
+
+
+</style>
+</html>

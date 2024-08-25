@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+body{
+    cursor: url("") , auto;
+    background-color: rgb(29, 49, 55);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20% ;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header span{
+    color: aqua;
+    
+}
+
+
+
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    right: 2cm;
+    animation: slidekanan 1s ease forwards;
+}
+
+.navbar a{
+    margin-right: 20px;
+    font-weight: 700;
+    position: relative;
+    left: 1.5cm;
+}
+
+.navbar a:hover{
+   
+   color: aqua;
+   transition: .3s ease-in-out;
+}
+
+.beranda{
+display: flex;
+height: 100vh;
+justify-content: space-between;
+align-items: center;
+padding: 90px 10% 0;
+cursor: default;
+padding-bottom: 10px;
+
+}
+
+
+.beranda-2 h1{
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.beranda-2 h2{
+    font-size: 41px;
+    color: white;
+    padding: 4px  4px;
+}
+
+
+.beranda h1{
+    font-size: 45px;
+}
+
+.img{
+    
+    position: relative;
+    left: 1cm;
+    height: 12cm;
+    
+}
+
+.sosial-media{
+    margin: 10px;
+    position: relative;
+    right: 10px;
+   
+}
+
+.sosial-media a{
+    font-size: 30px;
+    display: inline;
+    background-color: transparent;
+    border-radius: 100px ;
+    border: 2.85px solid aqua;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    right: 15px;
+}
+
+.sosial-media a:hover{
+   
+    transition:  0.45s  ease-in-out;
+    border: 2.85px solid rgb(47, 175, 255);
+    color: aqua;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 20px aqua;
+}
+
+.beranda-2 .cv{
+    position: absolute;
+    bottom: 5.5cm;
+    font-weight: 600;
+    box-shadow: 0 0 3px rgb(21, 197, 197);
+    background-color: rgb(0, 255, 255);
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+
+
+
+.beranda-2 h1 span{
+    color: aqua;
+}
+
+.beranda-2 .cv span{
+  color:rgb(3, 10, 16);
+    position: relative;
+    left: 4px;
+    font-weight: 600;
+}
+
+.beranda-2 p{
+    color: aliceblue;
+}
+
+.beranda-2 span{
+    color: aqua;
+}
+
+
+
+.bx bxl-linkedin-square{
+    height: 100px;
+}
+
+
+ 
+/* animasi /*/
+
+
+@keyframes slidekanan{
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    
+ }
+
+
+ @media screen and (max-width:600px) {
+ }  
+
+
+ @media screen {
+    
+ }
